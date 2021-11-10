@@ -1,4 +1,4 @@
-# Install_And_Run_Kafka
+# Install And Run Apache Kafka
 This repo contains notes about how to install, configure, run and test Apache kafka
 
 Follow the below link for reference
