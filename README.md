@@ -22,7 +22,7 @@ Note: password i used is "kafka" for user kafka
 Note: By default the shell will be csh. chnage it to bash by chnaging in /etc/passwd file 
 
 
-Create Download directory uder /home/kafka
+Create Download directory under /home/kafka
 ------------------------------------------
 
 sudo curl https://downloads.apache.org/kafka/2.6.2/kafka_2.12-2.6.2.tgz  -o ~/Downloads/kafka.tgz
