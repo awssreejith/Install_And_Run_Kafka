@@ -1,16 +1,14 @@
 # Install_And_Run_Kafka
 This repo contains notes about how to install, configure, run and test Apache kafka
 
-Installing Kafka
-================
+Follow the below link for reference
+
 https://www.digitalocean.com/community/tutorials/how-to-install-apache-kafka-on-ubuntu-18-04
 
- 
-To install follow the steps:-
-=============================
 
 Make a new kafka user first
-===========================
+---------------------------
+
 sudo useradd kafka -m
 
 sudo passwd kafka
@@ -22,9 +20,10 @@ su -l kafka
 Note: password i used is "kafka" for user kafka
 
 Note: By default the shell will be csh. chnage it to bash by chnaging in /etc/passwd file 
-===============================================================================================
+
 
 Create Download directory uder /home/kafka
+------------------------------------------
 
 sudo curl https://downloads.apache.org/kafka/2.6.2/kafka_2.12-2.6.2.tgz  -o ~/Downloads/kafka.tgz
 
@@ -61,7 +60,7 @@ Once above is done you can check the health of Kafka as below
 sudo journalctl -u kafka
 
 To Test the Kafka
-=================
+-----------------
 To test we can create a producer and consumer and post a message to a topic [for example- Sreejith_Topic_1]
 
 Step-1:- Create a topic named Sreejith_Topic_1
